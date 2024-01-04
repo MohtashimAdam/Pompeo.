@@ -1,0 +1,418 @@
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f8f8;
+}
+
+.navbar{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-top: 30px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+li{
+    margin-top: 17px;
+    list-style: none;
+    display: inline-block;
+}
+
+li a{
+    color: #6c6c6c;
+    font-size: 12px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-right: 50px;
+}
+
+li a:hover,
+li a:active{
+    color: black;
+}
+
+.unsplash-section{
+    height: auto;
+    padding-top: 6%;
+    background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0.3), hsla(0, 0%, 100%, 0.3)), url(WhatsApp\ Image\ 2023-12-31\ at\ 9.52.23\ AM.jpeg);
+}
+
+.unsplash-section{
+    display: block;
+    height: 70vh;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0.3), hsla(0, 0%, 100%, 0.3)), url(WhatsApp\ Image\ 2023-12-31\ at\ 9.52.23\ AM.jpeg);
+}
+
+.left-section{
+    margin-top: 10%;
+    margin-left: 55px;
+}
+
+h1{
+    font-size: 44px;
+    line-height: 54px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+
+p{
+    font-family: 'Libre Franklin', sans-serif;
+    line-height: 24px;
+    max-width: 500px;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(75, 73, 73);
+}
+
+.p{
+    margin-top: 25%;
+    text-align: center;
+    color: #ac1313;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+.h1{
+    margin-top: 30px;
+    text-align: center;
+}
+  
+.last-row{
+    margin-top: 50px;
+    display: block;
+    width: 100%;
+}
+  
+.row0 {
+   width: 33.33%;
+   float: left;
+}
+  
+  
+.h6-phone{
+    margin-left: 61.5%;
+    color: #000;
+    font-family: 'poppins', sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+  
+.p-phone{
+    margin-top: 20px;
+    margin-left: 53%;
+    width: 75%;
+    font-family: 'Libre Franklin', sans-serif;
+    line-height: 24px;
+    color: #6c6c6c;
+}
+
+  
+.h6-location{
+    margin-left: 44%;
+    color: #000;
+    font-family: 'poppins', sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+  
+.p-location{
+    margin-top: 20px;
+    margin-left: 31%;
+    font-family: 'Libre Franklin', sans-serif;
+    line-height: 24px;
+    color: #6c6c6c;
+}
+  
+.h6-mail{
+    margin-left: 18%;
+    color: #000;
+    font-family: 'poppins', sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+  
+.p-mail{
+    margin-top: 20px;
+    margin-left: 4%;
+    font-family: 'Libre Franklin', sans-serif;
+    line-height: 24px;
+    color: #6c6c6c;
+    margin-bottom: 20vh;
+}
+
+.contact-div{
+    padding-top: 120px;
+}
+
+.image-div{
+    display: block;
+    width: 78%;
+    height: 200px;
+    margin-right: 0px;
+    margin-left: 12%;
+    align-items: center;
+    background-image: url(5bb9649228dfc366d4954146_alisher-sharip-117976-unsplash-p-3200.jpeg);
+    background-position: 0px 51%;
+    background-size: cover;
+}
+
+
+.container-{
+    display: inline-block;
+    width: 78%;
+    margin-left: 11.85%;
+    background-color: white;
+    height: 90vh;
+}
+
+.lastcontainer{
+    width: 41.66666667%;
+    position: relative;
+    float: left;
+    width: 50%;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.lastcontainer1{
+    width: 41.66666667%;
+    position: relative;
+    float: right;
+    width: 50%;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.map{
+    margin-left: 50px;
+    margin-top: 60px;
+    height: 70vh;
+    width: 70%;
+    background-color: #ebebeb;
+}
+
+.lastheading{
+    margin-top: 65px;
+    margin-bottom: 20px;
+    font-family: Poppins, sans-serif;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.form{
+    text-align: left;
+}
+
+.input{
+    width: 50%;
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.name{
+    font-size: 15px;
+    font-family: 'libre Franklin', sans-serif;
+    line-height: 18px;
+    font-weight: bold;
+    text-align: left;
+}
+
+form{
+    width: 90%;
+    max-width: 600px;
+}
+
+.input-group{
+    margin-bottom: 30px;
+    position: relative;
+}
+
+input,textarea{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #000;
+    color: #000;
+    background: transparent;
+    font-size: 15px;
+}
+
+label{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: #000;
+    cursor: text;
+    background-color: transparent;
+}
+
+
+button{
+    padding: 10px 0;
+    color: #fff;
+    background-color: #ac1313;
+    border: 1px solid #fff;
+    width: 40%;
+    height: 70px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+button:hover{
+    background-color: #cd790b;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.row .input-group{
+    flex-basis: 48%;
+}
+
+footer{
+    margin-top: 10%;
+    position: relative;
+    padding-bottom: 0px;
+    color: transparent;
+    line-height: 24px;
+}
+
+.title-pompeo{
+    padding-top: 50%;
+}
+    
+.p-pompeo-text{
+    width: 75%;
+    font-family: 'Libre Franklin', sans-serif;
+    line-height: 24px;
+    color: #6c6c6c;
+    font-size: 14px;
+    margin-left: 2rem;
+    margin-top: 6vh;
+}
+  
+.icon-1{
+    margin-left: 20%;
+    margin-top: 20px;
+}
+  
+.last-row{
+    display: block;
+    width: 100%;
+}
+  
+.row0 {
+   width: 33.33%;
+   float: left;
+}
+  
+  
+.img-mail img{
+    height: 8vh;
+    width: 50px;
+    margin-top: 70px;
+    margin-left: 60%;
+}
+  
+.h6-mail{
+    margin-left: 61.5%;
+    color: #000;
+    font-family: 'poppins', sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+  
+.p-mail{
+    margin-left: 45%;
+    width: 75%;
+    font-family: 'Libre Franklin', sans-serif;
+    line-height: 24px;
+    color: #6c6c6c;
+}
+  
+.img-find img{
+    height: 8vh;
+    width: 60px;
+    margin-top: 70px;
+    margin-left: 40%;
+}
+  
+.h6-find{
+    margin-left: 44%;
+    color: #000;
+    font-family: 'poppins', sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+  
+.p-find{
+    margin-left: 31%;
+    font-family: 'Libre Franklin', sans-serif;
+    line-height: 24px;
+    color: #6c6c6c;
+}
+  
+.img-call img{
+    height: 8vh;
+    width: 60px;
+    margin-top: 70px;
+    margin-left: 15%;
+}
+  
+.h6-call{
+    margin-left: 18%;
+    color: #000;
+    font-family: 'poppins', sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+  
+.p-call{
+    margin-left: 10%;
+    font-family: 'Libre Franklin', sans-serif;
+    line-height: 24px;
+    color: #6c6c6c;
+    margin-bottom: 20vh;
+}

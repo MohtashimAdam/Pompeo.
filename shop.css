@@ -1,0 +1,198 @@
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-top: 30px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+li{
+    margin-top: 17px;
+    list-style: none;
+    display: inline-block;
+}
+
+li a{
+    color: #6c6c6c;
+    font-size: 12px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-right: 50px;
+}
+
+li a:hover,
+li a:active{
+    color: black;
+}
+
+.unsplash-section{
+    height: auto;
+    padding-top: 6%;
+    background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0.3), hsla(0, 0%, 100%, 0.3)), url(WhatsApp\ Image\ 2023-12-30\ at\ 1.11.25\ AM.jpeg);
+}
+
+.unsplash-section{
+    display: block;
+    height: 60vh;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0.3), hsla(0, 0%, 100%, 0.3)), url(WhatsApp\ Image\ 2023-12-30\ at\ 1.11.25\ AM.jpeg);
+}
+
+.left-section{
+    margin-top: 6%;
+    margin-left: 55px;
+}
+
+h1{
+    font-size: 44px;
+    line-height: 54px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+
+p{
+    font-family: 'Libre Franklin', sans-serif;
+    line-height: 24px;
+    max-width: 500px;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(75, 73, 73);
+}
+
+.p{
+    margin-top: 20%;
+    text-align: center;
+    color: #ac1313;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+.h1{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.row::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.a-collection a{
+    margin-top: 10px;
+    color: #6c6c6c;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.a-collection a:hover{
+    color: #ac1313;
+}
+
+.p-collection{
+    color: #000;
+    font-weight: 600;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+.circle{
+    height: 80px;
+    width: 80px;
+    background-color: #ebb96a;
+    border-radius: 500px;
+    margin-top: 15%;
+  }
+  
+.circle img{
+    align-items: center;
+    margin-top: 15px;
+    height: 8vh;
+}
+
+.p-news{
+    margin-top: 50px;
+    text-align: center;
+    color: #ac1313;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+.style{
+    position: relative;
+    color: #ac1313;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 68px;
+    font-weight: 400;
+}
+
+.h1-news{
+    margin-top: 30px;
+    text-align: center;
+}  
+  
+.placeholder{
+    height: 5vh;
+}
+  
+label{
+    position: relative;
+}
+  
+input{
+    margin-top: 30px;
+    padding: 15px;
+    margin-left: 38%;
+    width: 20%;
+    border: 1px solid black;
+}
+  
+button{
+    padding: 15px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+  
+button:hover{
+    background-color: #ac1313;
+    transition: .5s;
+}
+  
